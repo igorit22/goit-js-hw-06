@@ -1,7 +1,5 @@
 // Отримуємо список всіх li.item в ul#categories
-const categoriesList = document.querySelectorAll(
-  "#categories > .item"
-);
+const categoriesList = document.querySelectorAll("#categories > .item");
 
 // Виводимо кількість категорій в консоль
 console.log("Number of categories:", categoriesList.length);
